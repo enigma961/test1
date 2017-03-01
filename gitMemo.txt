@@ -1,0 +1,19 @@
+
+
+
+git add -p [ファイル名]
+---
+unstaged なファイルに対して add -p したいときはまず add -N でファイルをとりあえず staged に上げて，その上で add -p すれば部分的に staged にできる
+----
+
+
+git status 変更されたファイルの一覧を表示したい
+ git commit -m 'comment'
+ git push
+
+
+git branch  
+ 引数なしだとブランチ一覧
+　引数ありだとブランチ作成
+git checkout 引数
+　ブランチ切り替え
